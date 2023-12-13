@@ -27,7 +27,7 @@ class TrendTextGroup extends StatelessWidget {
                   ),
                   const TextSpan(
                     text: '5,684.77',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
@@ -45,7 +45,7 @@ class TrendTextGroup extends StatelessWidget {
                   ),
                   const TextSpan(
                     text: '5,261.41',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
@@ -63,7 +63,7 @@ class TrendTextGroup extends StatelessWidget {
                   ),
                   const TextSpan(
                     text: '415,964.04',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
@@ -86,7 +86,7 @@ class TrendTextGroup extends StatelessWidget {
                   ),
                   const TextSpan(
                     text: '92.04B',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
@@ -104,7 +104,7 @@ class TrendTextGroup extends StatelessWidget {
                   ),
                   const TextSpan(
                     text: '17.20M',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),

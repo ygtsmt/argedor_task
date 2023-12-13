@@ -19,9 +19,7 @@ class MainApp extends StatelessWidget {
           elevation: 0,
           title: Column(
             children: [
-              const Text(
-                'BTC',
-              ),
+              const Text('BTC'),
               Text(
                 'Global average',
                 style: Theme.of(context).textTheme.labelLarge!.copyWith(
