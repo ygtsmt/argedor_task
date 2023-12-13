@@ -1,4 +1,5 @@
-import 'package:argedor_task/app/ui/home_screen.dart';
+import 'package:argedor_task/app/ui/screens/home_screen/home_screen.dart';
+import 'package:argedor_task/core/color_constants.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,12 +24,14 @@ class MainApp extends StatelessWidget {
               ),
               Text(
                 'Global average',
-                style:
-                    Theme.of(context).textTheme.labelLarge!.copyWith(color: Colors.grey, fontWeight: FontWeight.w200),
+                style: Theme.of(context).textTheme.labelLarge!.copyWith(
+                      color: ColorConstants().subTextColor,
+                      fontWeight: FontWeight.w200,
+                    ),
               ),
             ],
           ),
-          backgroundColor: Colors.transparent,
+          backgroundColor: ColorConstants().mainColor,
           centerTitle: true,
           actions: [
             Row(
@@ -48,7 +51,7 @@ class MainApp extends StatelessWidget {
             )
           ],
         ),
-        backgroundColor: const Color.fromARGB(255, 14, 17, 44),
+        backgroundColor: ColorConstants().mainColor,
         body: const SafeArea(
           child: HomeScreen(),
         ),

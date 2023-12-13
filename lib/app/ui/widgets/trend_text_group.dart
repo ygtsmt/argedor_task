@@ -1,3 +1,4 @@
+import 'package:argedor_task/core/color_constants.dart';
 import 'package:flutter/material.dart';
 
 class TrendTextGroup extends StatelessWidget {
@@ -19,7 +20,7 @@ class TrendTextGroup extends StatelessWidget {
                 children: [
                   TextSpan(
                     text: '24H High (EUR)',
-                    style: TextStyle(color: Theme.of(context).hintColor),
+                    style: TextStyle(color: ColorConstants().subTextColor),
                   ),
                   const TextSpan(
                     text: '\n',
@@ -37,7 +38,7 @@ class TrendTextGroup extends StatelessWidget {
                 children: [
                   TextSpan(
                     text: '24H LOW (EUR)',
-                    style: TextStyle(color: Theme.of(context).hintColor),
+                    style: TextStyle(color: ColorConstants().subTextColor),
                   ),
                   const TextSpan(
                     text: '\n',
@@ -55,7 +56,7 @@ class TrendTextGroup extends StatelessWidget {
                 children: [
                   TextSpan(
                     text: '24H High VOL',
-                    style: TextStyle(color: Theme.of(context).hintColor),
+                    style: TextStyle(color: ColorConstants().subTextColor),
                   ),
                   const TextSpan(
                     text: '\n',
@@ -78,7 +79,7 @@ class TrendTextGroup extends StatelessWidget {
                 children: [
                   TextSpan(
                     text: 'CAP (EUR)',
-                    style: TextStyle(color: Theme.of(context).hintColor),
+                    style: TextStyle(color: ColorConstants().subTextColor),
                   ),
                   const TextSpan(
                     text: '\n',
@@ -96,7 +97,7 @@ class TrendTextGroup extends StatelessWidget {
                 children: [
                   TextSpan(
                     text: 'Circulation(BTC)',
-                    style: TextStyle(color: Theme.of(context).hintColor),
+                    style: TextStyle(color: ColorConstants().subTextColor),
                   ),
                   const TextSpan(
                     text: '\n',
